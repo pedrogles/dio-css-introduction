@@ -125,7 +125,20 @@
 
 /* woman background */
 #transform-world {
+    background-image: url("../images/woman-code.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 15rem;
+}
 
+#transform-world p {
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: 900;
+    text-shadow: .3rem .2rem #33A8DB;
+    text-transform: lowercase;
+    max-width: 24.4rem;
 }
 
 /* professional challanges */
