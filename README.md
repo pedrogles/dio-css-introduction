@@ -1,22 +1,37 @@
-# Desafio 01: Criando sua primeira Landing Page com HTML e CSS
+# 🧠 Santander Bootcamp | DIO — Resumo Técnico
 
-Bem vindo(a) ao primeiro desafio da Trilha de CSS da DIO! Nela, você vai construir sua primeira Landing Page com HTML e CSS, colocando em prática os fundamentos do CSS,
-as propriedades básicas da linguagem de estilização, além de trabalhar com as unidades de medidas relativas e absolutas que aprendemos ao longo da trilha.
+Este é um projeto em HTML e CSS criado como parte do **Santander Bootcamp Front-end Developer**, promovido pela **DIO (Digital Innovation One)**.
+O objetivo é apresentar os fundamentos de estilização com CSS aplicados em uma estrutura HTML simples.
 
-[Clique aqui](https://micheleambrosio.github.io/dio-trilha-css-desafio-01/) para acessar o resultado final da Landing Page criada a partir do desafio!
+A proposta inclui a construção de uma Landing Page com HTML e CSS, colocando em prática:
+
+- As propriedades básicas da linguagem de estilização
+- O uso de unidades de medida relativas e absolutas
+- Gradientes e efeitos com `box-shadow` e `background-image`
+- Aplicação de reset.css para normalizar estilos
+- Uso de font-family personalizada (Raleway via Google Fonts)
+- Como diferencial, foram aplicadas técnicas modernas de layout e responsividade
+
+---
+
+## ✨ Tecnologias Utilizadas
+
+- HTML5 semântico
+- CSS3 moderno
+- Fontes do Google Fonts
+- Responsividade com `clamp` e `flexbox`
+- Boas práticas com `box-sizing`, `reset`, e organização visual
+
+---
+
+## 📚 Estrutura do Projeto
+```
+├── assets/                             # Arquivos estáticos como imagens e estilos
+|   ├── css/                            # Arquivos de estilo utilizados no projeto
+|   └── images/                         # Imagens utilizadas no projeto
+├── index.html                          # Página do projeto
+├── README.md                           # Documentação do projeto
+```
+
 
 ![image](https://user-images.githubusercontent.com/55519539/183538055-6cce606c-7d1d-4d15-a4be-ffeb5b37c956.png)
-
-Para você realizar o desafio, basta fazer um **fork** para o seu GitHub e começar a mexer no projeto.
-Dentro da pasta *main*, você vai encontrar todas as imagens e o arquivo HTML, contendo a estrutura básica da sua página, faltando apenas
-realizar a estilização da sua página. É necessário que você faça toda a parte responsável por interligar sua página HTML com suas folhas
-de estilo para que o resultado da estilização funcione.
-
-[Link do Figma](https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=2%3A6) contendo o protótipo do desafio para
-que você possa se basear.
-
-*Observações: para aplicar os textos em gradiente, utilize a propriedade CSS background-clip, porém, para funcionar em alguns navegadores,
-é necessário utilizar a propriedade -webkit-background-clip: text;*
-
-Caso tenha alguma dúvida, ou queira comparar o resultado do desafio que você fez, nós temos o site finalizado na branch *final*. Basta alterar a branch do projeto
-utilizando o comando `git checkout final` no seu terminal.
