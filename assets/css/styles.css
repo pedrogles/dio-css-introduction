@@ -181,6 +181,32 @@
 }
 
 /* footer */
-.dio-logo {
-    
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: linear-gradient(#33A8DB00, #33A8DB33);
+    border-top: solid .1rem #33A8DB80;
+    padding: 8rem 2rem;
+}
+
+footer .dio-logo {
+    width: 100%;
+    max-width: 31rem;
+}
+
+footer p {
+    font-size: 1.6rem;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    max-width: 25.9rem;
+}
+
+footer p a {
+    color: #33A8DB;
+    font-weight: 700;
+    text-decoration: none;
 }
