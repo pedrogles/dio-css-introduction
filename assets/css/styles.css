@@ -1,5 +1,6 @@
 @import './_reset.css';
 
+/* banner */
 .banner {
     display: flex;
     justify-content: center;
@@ -17,6 +18,7 @@
     align-items: inherit;
     flex-direction: column;
     gap: 1.6rem;
+    padding: 0 2rem;
 }
 
 .banner .banner-content .logo {
@@ -68,26 +70,70 @@
     margin-top: 1.3rem;
 }
 
+/* what i'll learn */
 #course-content {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+    min-height: 52rem;
+    padding: 4rem 2rem;
 }
 
-.modules-list {
-
+#course-content h2 {
+    color: #33A8DB;
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: .6rem;
+    text-transform: uppercase;
+    text-align: center;
 }
 
-.module {
-
+#course-content p {
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+    max-width: 79.2rem;
 }
 
+#course-content .modules-list {
+    display: inherit;
+    align-items: inherit;
+    flex-direction: inherit;
+    gap: 2.4rem;
+    width: 100%;
+}
+
+#course-content .modules-list .module {
+    font-size: 1.6rem;
+    text-align: center;
+    color: #ffffff;
+    background-color: #252525;
+    width: 100%;
+    max-width: 53.5rem;
+    border: solid .1rem #33A8DB;
+    border-radius: 5.7rem;
+    padding: 1.6rem 6rem;
+    box-shadow: inset -2px 6px 4px 0 rgba(0, 0, 0, 0.4);
+}
+
+#course-content .modules-list .module span {
+    color: #33A8DB;
+}
+
+/* woman background */
 #transform-world {
 
 }
 
+/* professional challanges */
 #professional-challenges {
 
 }
 
+/* footer */
 .dio-logo {
     
 }
